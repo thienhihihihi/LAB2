@@ -132,11 +132,11 @@ int intial=1;
 
 
 	  }
-//
-//	  if(timer0_flag==1){
-//		  updateshift();
-//		  setTimer0(500);
-//	  }
+
+	  if(timer0_flag==1){
+		  updateshift();
+		  setTimer0(500);
+	  }
 
 
 
