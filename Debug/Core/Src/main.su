@@ -1,0 +1,13 @@
+Ex3_4.h:17:8:update7SEG	16	static
+Ex3_4.h:70:8:updateClockBuffer	4	static
+Ex9,10.h:37:6:updaterow	24	static
+Ex9,10.h:42:6:init_state	16	static
+Ex9,10.h:57:6:updateLEDMatrix	16	static
+Ex9,10.h:153:6:updateshift	4	static
+Ex9,10.h:156:6:updateLEDMatrix_shift	24	static
+main.c:80:5:main	16	static
+main.c:301:6:SystemClock_Config	72	static
+main.c:337:13:MX_TIM2_Init	32	static
+main.c:382:13:MX_GPIO_Init	32	static
+main.c:433:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:448:6:Error_Handler	4	static,ignoring_inline_asm

@@ -1,0 +1,6 @@
+Ex1_2.c:12:6:display7SEG	16	static
+Ex1_2.c:134:6:SEG_1	8	static
+Ex1_2.c:144:6:SEG_2	8	static
+Ex1_2.c:152:6:SEG_3	8	static
+Ex1_2.c:160:6:SEG_4	8	static
+Ex1_2.c:170:6:Intial	8	static
