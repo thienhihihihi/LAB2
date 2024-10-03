@@ -120,18 +120,18 @@ setTimer0(10);
 setTimer1(10);
 setTimer2(20);
 //int ok=1;
-//int state=0;
+int state=0;
 int intial=1;
   while (1)
   {
-//	  updateLEDMatrix_shift(state);
-//	  if(timer1_flag==1){
-//		  state++;
-//		  if(state>7) state=0;
-//		  setTimer1(10);
-//
-//
-//	  }
+	  updateLEDMatrix_shift(state);
+	  if(timer1_flag==1){
+		  state++;
+		  if(state>7) state=0;
+		  setTimer1(10);
+
+
+	  }
 //
 //	  if(timer0_flag==1){
 //		  updateshift();
@@ -154,46 +154,46 @@ int intial=1;
 
 
 
-if(intial==1){
-
-	Intial();
-		  HAL_GPIO_WritePin(DOT_GPIO_Port,DOT_Pin, SET);
-
-}
-	 if(timer1_flag==1 ){
-		 intial=2;
-		 	update7SEG(index_led);
-		 	index_led++;
-	 	if (index_led >= MAX_LED) {
-	 	            index_led = 0;
-		 				}
-		 	setTimer1(250);
-
-	 }
-
-
-
-
-	  	//  End Exercise4,5
-	 if (timer0_flag == 1)
-			  {
-				  second++;
-				  if (second >=60){
-					  second = 0;
-					  minute++;
-				  }
-				  if (minute >=60){
-					  minute = 0;
-					  hour++;
-				  }
-				  if (hour >=24){
-					  hour = 0;
-				  }
-
-				  updateClockBuffer ();
-
-				  setTimer0(1000);
-			  }
+//if(intial==1){
+//
+//	Intial();
+//		  HAL_GPIO_WritePin(DOT_GPIO_Port,DOT_Pin, SET);
+//
+//}
+//	 if(timer1_flag==1 ){
+//		 intial=2;
+//		 	update7SEG(index_led);
+//		 	index_led++;
+//	 	if (index_led >= MAX_LED) {
+//	 	            index_led = 0;
+//		 				}
+//		 	setTimer1(250);
+//
+//	 }
+//
+//
+//
+//
+//	  	//  End Exercise4,5
+//	 if (timer0_flag == 1)
+//			  {
+//				  second++;
+//				  if (second >=60){
+//					  second = 0;
+//					  minute++;
+//				  }
+//				  if (minute >=60){
+//					  minute = 0;
+//					  hour++;
+//				  }
+//				  if (hour >=24){
+//					  hour = 0;
+//				  }
+//
+//				  updateClockBuffer ();
+//
+//				  setTimer0(1000);
+//			  }
 
 
 
